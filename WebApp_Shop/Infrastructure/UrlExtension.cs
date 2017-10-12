@@ -6,7 +6,6 @@ namespace WebApp_Shop.Infrastructure
     {
         public static string PathAndQuery(this HttpRequest request)
         {
-              
             return request.QueryString.HasValue ? $"{request.Path}{request.QueryString}" : request.Path.ToString();
              
 
