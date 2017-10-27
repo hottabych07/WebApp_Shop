@@ -34,6 +34,7 @@ namespace WebApp_Shop
 
             services.AddScoped<Cart>(sp => SessionCart.GetCart(sp));
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddTransient<IOrderRepository, EFOrderRepository>();
 
 
             services.AddMvc();
