@@ -1,5 +1,5 @@
 # WebApp_Shop
 
-This web application is still in development
+Simple online store with the function of the basket on ASP.NET MVC
 
 ![alt text](https://i.imgur.com/AUsVnT3.jpg)
